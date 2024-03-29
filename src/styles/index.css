@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.contenedorSemaforo{
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+}
+@-webkit-keyframes pulse {
+    0% { box-shadow:0 0 8px white, inset 0 0 8px white; }
+    50% { box-shadow:0 0 16px white, inset 0 0 14px white; }
+    100% { box-shadow:0 0 8px white, inset 0 0 8px white; }
+  }
+.lightRed{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red ;
+    border-radius:50px;
+    box-shadow: 0 0 8px red, inset 0 0 8px white;
+    -webkit-animation: pulse 2s linear 1s infinite;
+}
+.lightYellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow ;
+    border-radius:50px;
+    box-shadow: 0 0 8px yellow, inset 0 0 8px white;
+    -webkit-animation: pulse 2s linear 1s infinite;
+}
+.lightGreen{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green ;
+    border-radius:50px;
+    box-shadow: 0 0 8px green, inset 0 0 8px white;
+    -webkit-animation: pulse 2s linear 1s infinite;
+}
