@@ -22,8 +22,7 @@ const Home = () => {
 					<div  onClick= {() => setSelectedColor("green")} 
 					className={"lightGreen"  + (selectedColor === "green" ? " glow" : "")}>
 
-					</div>
-				
+					</div>		
 				</div>
 			</div>
 		</div>
