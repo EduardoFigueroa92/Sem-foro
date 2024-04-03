@@ -11,41 +11,50 @@
 
 */
 .fondo{
-
-    background-image: url(https://img.freepik.com/vector-premium/cruce-ciudad-semaforos-marcas-viales-acera-peatones_1441-1543.jpg);
-    
-  
+    background-image: url(https://i.pinimg.com/originals/72/98/af/7298af409abc9b0bf2ea95702e1e5031.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f2f2f2;
 }
 .contenedorSemaforo{
-    background-color: black;
     display: inline-block;
     padding: 10px;
+    margin-top: 130px;
+    margin-left: 49px;
 }
 
 .lightRed{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    background-color: red ;
+    background-color: #f90202 ;
     border-radius:50px;
-    box-shadow: 0 0 8px red, inset 0 0 8px white;
+    box-shadow: 0 0 8px #f90202, inset 0 0 8px white;
+    
 }
 .lightYellow{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     background-color: yellow ;
     border-radius:50px;
     box-shadow: 0 0 8px yellow, inset 0 0 8px white;
+    margin-top: 45px;
 }
 .lightGreen{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    background-color: green ;
+    background-color:  #00FF00 ;
     border-radius:50px;
-    box-shadow: 0 0 8px green, inset 0 0 8px white;
+    box-shadow: 0 0 8px #00FF00, inset 0 0 8px white;
+    margin-top: 38px;
 }
 .glow{
+    box-shadow: 0px 0px 9px 4px white;
     
 }
